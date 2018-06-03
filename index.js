@@ -9,7 +9,7 @@ exports.get = function(event, context, callback) {
     statusCode: 200,
     body: contents.toString(),
     headers: {'content-type': 'text/html'}
-  };
+  }; 
 
   callback(null, result);
 };
